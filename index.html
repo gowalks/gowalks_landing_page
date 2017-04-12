@@ -11,20 +11,205 @@
     <!-- Bootstrap Core CSS -->
     <link href="libraries/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Custom Fonts -->
+    <link href="libraries/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/index.css" rel="stylesheet" type="text/css">
+    <link href="css/portugues.css" rel="alternate stylesheet" type="text/css" title="alternate">
+
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
-	HELLO WORLD!
-	
+    <!--NAVIGATION-->
+    <nav id="navigationbar" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" id="navHome" href="#cover">GOwalksportugal</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="navOption"><a class="page-scroll" href="#about">
+                        <span class="english">About</span>
+                        <span class="portugues">Sobre</span>
+                    </a></li>
+                    <li class="navOption"><a class="page-scroll" href="#walks">
+                        <span class="english">Walks</span>
+                        <span class="portugues">Percursos</span>
+                    </a></li>
+                    <li class="navOption"><a class="page-scroll" href="#portfolio">
+                        <span class="english">Portfolio</span>
+                        <span class="portugues">Portfólio</span>
+                    </a></li>
+                    <li class="navOption"><a class="page-scroll" href="#reservations">
+                        <span class="english">Reservations</span>
+                        <span class="portugues">Reservas</span>
+                    </a></li>
+                    <li role="presentation" class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                          <span class="english">Language</span><span class="portugues">Linguagem</span><span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="langOption">
+                                <a href="javascript:chooseStyle('none', 60)">English <span class="english glyphicon glyphicon-ok"></span></a>
+                            </li>
+                            <li class="langOption">
+                                <a href="javascript:chooseStyle('alternate', 60)">Português <span class="portugues glyphicon glyphicon-ok"></span></a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </div>
+            <!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+    <!--COVER-->
+    <header id="cover">
+        <div class="header-content">
+            <div class="header-text">
+                <h1 id="homeHeading">
+                    <span class="english">Hi! Let's walk?</span>
+                    <span class="portugues">Olá! Vamos caminhar?</span>
+                </h1>
+                    <span class="english">
+                        <p>Combining the passion of walking while enjoying Portuguese culture, with a knowledgeable and enthusiastic inhabitant, we’ll guide you in an exciting journey through “Lusitania Lands” you’ll want to remember forever!</p>
+                    </span>
+                    <span class="portugues">
+                        <p>Combinando a paixão de caminhar com o desfrutar da cultura Portuguesa, pela mão de um habitante conhecedor e entusiasta, vamos guiar-te numa jornada excitante por terras Lusitânias, que vais querer lembrar para sempre!</p>
+                    </span>
+            </div>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <img src="resources\gowalks_logo_mini.png" class="img-responsive center-block" alt="GOwalks logo">
+                    <span class="english">
+                        <p>Searching for authentic experiences in Portugal? We have the answers you're looking for! Guided Tours, Theme and Personalized Tours, Workshops and other leisure activities inspired in Portuguese Culture and Heritage... runned by locals!</p>
+                    </span>
+                    <span class="portugues">
+                        <p>Procuras experiências autênticas em Portugal? Nós temos a solução! Visitas guiadas, Percursos Temáticos e Personalizados, Workshops e outras actividades de lazer inspiradas na Cultura e Património Portugueses... geridas por habitantes locais!</p>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="lightBG" id="walks">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="text-center">
+                        <h2 class="section-heading">
+                            <span class="english">Walks</span>
+                            <span class="portugues">Percursos</span>
+                        </h2>
+                    </div>
+                    <p class="text-faded">
+                        <span class="english">
+                            <ul>
+                                <li>COIMBRA WALKS</li>
+                                    <ul>
+                                        <li>Unesco World Heritage Tour + University Tour (optional)</li>
+                                        <li>Fado Tour + Fado Show (Optional)</li>
+                                        <li>Gastronomic Whims – Downtown &amp; City Market</li>
+                                        <li>Riverside and Tales of Love Tour</li>
+                                        <li>Jewish Coimbra Tour</li>
+                                        <li>Moonlight &amp; Beer Experience + Brewery Tour (optional)</li>
+                                        <li>Treasure Hunt Experience</li>
+                                    </ul>
+                                <li> Around Coimbra</li>
+                                    <ul>
+                                        <li>Conímbriga * Roman Legacy Tour</li>
+                                        <li>BUSSACO * ENCHANTED FORESTS &amp; PALACES TOUR</li>
+                                        <li>Bairrada &amp; Vista Alegre * Gastronomy and Wine meets Art Tour</li>
+                                        <li>LOUSÃ * Charming Schist Villages Tour</li>
+                                        <li>MONTEMOR * Castles and Town Walls Tour</li>
+                                        <li>Aveiro, Barra &amp; Costa Nova * Lagoon and fishermen villages tour</li>
+                                        <li>PEDRO &amp; INÊS * TALES OF LOVE TOUR</li>
+                                        <li>TOMAR, BATALHA &amp; ALCOBAÇA * World Heritage Sites Tour</li>
+                                        <li>FÁTIMA &amp; NAZARÉ * Sites of Pilgrimage &amp; Devotion Tour</li>
+                                        <li>ÓBIDOS * MEDIEVAL VILLAGE &amp; LAGOON TOUR</li>
+                                        <li>From Mondego to Tagus * Knights Templar Tour</li>
+                                    </ul>
+                                <li> Tailored Tours in Portugal</li>
+                            </ul>
+                        </span>
+                        <span class="portugues">Percursos</span>
+
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+
+        </div>
+    </section>
+
+
+    <section class="darkBG" id="reservations">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">
+                        <span class="english">Reservations</span>
+                        <span class="portugues">Reservas</span>
+                    </h2>
+
+                    <p>
+                        <span class="english">To reserve a Walk, please contact us via email:</span>
+                        <span class="portugues">Para reservar um percurso, por favor contacte-nos via email:</span>
+                    </p>
+
+                    <h3>
+                        <a href="mailto:gowalks@gmail.com">gowalks@gmail.com</a>
+                    </h3>
+                </div>
+
+                <div class="col-lg-8 col-lg-offset-2 text-center social-media">
+                    <ul class="list-inline banner-social-buttons">
+                        <li>
+                            <a href="https://www.facebook.com/pg/GOwalks" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
+                        </li>
+                        <li>
+                            <a href="https://www.tripadvisor.com.br/Attraction_Review-g189143-d3326794-Reviews-GOwalksportugal-Coimbra_Coimbra_District_Central_Portugal.html" class="btn btn-default btn-lg"><i class="fa fa-tripadvisor fa-fw"></i> <span class="network-name">Tripadvisor</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
     <!-- jQuery -->
     <script src="libraries/jquery/jquery.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="libraries/bootstrap/js/bootstrap.min.js"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="libraries/scrollreveal/scrollreveal.min.js"></script>
-    <script src="libraries/magnific-popup/jquery.magnific-popup.min.js"></script>
     <script src="libraries/stylesheet/stylesheet.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/index.js"></script>
+
 </body>
