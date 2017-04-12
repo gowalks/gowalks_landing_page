@@ -16,6 +16,9 @@
     <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 
+    <!-- Plugin CSS -->
+    <link href="libraries/magnific-popup/magnific-popup.css" rel="stylesheet">
+
     <!-- Theme CSS -->
     <link href="css/index.css" rel="stylesheet" type="text/css">
     <link href="css/portugues.css" rel="alternate stylesheet" type="text/css" title="alternate">
@@ -122,37 +125,45 @@
                         </h2>
                     </div>
                     <p class="text-faded">
-                        <span class="english">
-                            <ul>
-                                <li>COIMBRA WALKS</li>
-                                    <ul>
-                                        <li>Unesco World Heritage Tour + University Tour (optional)</li>
-                                        <li>Fado Tour + Fado Show (Optional)</li>
-                                        <li>Gastronomic Whims – Downtown &amp; City Market</li>
-                                        <li>Riverside and Tales of Love Tour</li>
-                                        <li>Jewish Coimbra Tour</li>
-                                        <li>Moonlight &amp; Beer Experience + Brewery Tour (optional)</li>
-                                        <li>Treasure Hunt Experience</li>
-                                    </ul>
-                                <li> Around Coimbra</li>
-                                    <ul>
-                                        <li>Conímbriga * Roman Legacy Tour</li>
-                                        <li>BUSSACO * ENCHANTED FORESTS &amp; PALACES TOUR</li>
-                                        <li>Bairrada &amp; Vista Alegre * Gastronomy and Wine meets Art Tour</li>
-                                        <li>LOUSÃ * Charming Schist Villages Tour</li>
-                                        <li>MONTEMOR * Castles and Town Walls Tour</li>
-                                        <li>Aveiro, Barra &amp; Costa Nova * Lagoon and fishermen villages tour</li>
-                                        <li>PEDRO &amp; INÊS * TALES OF LOVE TOUR</li>
-                                        <li>TOMAR, BATALHA &amp; ALCOBAÇA * World Heritage Sites Tour</li>
-                                        <li>FÁTIMA &amp; NAZARÉ * Sites of Pilgrimage &amp; Devotion Tour</li>
-                                        <li>ÓBIDOS * MEDIEVAL VILLAGE &amp; LAGOON TOUR</li>
-                                        <li>From Mondego to Tagus * Knights Templar Tour</li>
-                                    </ul>
-                                <li> Tailored Tours in Portugal</li>
-                            </ul>
-                        </span>
-                        <span class="portugues">Percursos</span>
+                        <div class="group-walk">
+                            <div class="inner-walk">
+                                <h3>COIMBRA WALKS</h3>
+                                <ul>
+                                    <li>Unesco World Heritage Tour + University Tour (optional)</li>
+                                    <li>Fado Tour + Fado Show (Optional)</li>
+                                    <li>Gastronomic Whims – Downtown &amp; City Market</li>
+                                    <li>Riverside and Tales of Love Tour</li>
+                                    <li>Jewish Coimbra Tour</li>
+                                    <li>Moonlight &amp; Beer Experience + Brewery Tour (optional)</li>
+                                    <li>Treasure Hunt Experience</li>
+                                </ul>
+                            </div>
+                        </div>
 
+                        <div class="group-walk">
+                            <div class="inner-walk">
+                                <h3>Around Coimbra</h3>
+                                <ul>
+                                    <li>Conímbriga * Roman Legacy Tour</li>
+                                    <li>BUSSACO * ENCHANTED FORESTS &amp; PALACES TOUR</li>
+                                    <li>Bairrada &amp; Vista Alegre * Gastronomy and Wine meets Art Tour</li>
+                                    <li>LOUSÃ * Charming Schist Villages Tour</li>
+                                    <li>MONTEMOR * Castles and Town Walls Tour</li>
+                                    <li>Aveiro, Barra &amp; Costa Nova * Lagoon and fishermen villages tour</li>
+                                    <li>PEDRO &amp; INÊS * TALES OF LOVE TOUR</li>
+                                    <li>TOMAR, BATALHA &amp; ALCOBAÇA * World Heritage Sites Tour</li>
+                                    <li>FÁTIMA &amp; NAZARÉ * Sites of Pilgrimage &amp; Devotion Tour</li>
+                                    <li>ÓBIDOS * MEDIEVAL VILLAGE &amp; LAGOON TOUR</li>
+                                    <li>From Mondego to Tagus * Knights Templar Tour</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="group-walk">
+                            <div class="inner-walk">
+                                <h3>Tailored Tours in Portugal</h3>
+                            </div>
+                        </div>
 
                     </p>
                 </div>
@@ -160,9 +171,101 @@
         </div>
     </section>
 
-    <section id="portfolio">
-        <div class="container">
-
+    <section id="portfolio" class="no-padding">
+        <div class="container-fluid">
+            <div class="row no-gutter popup-gallery">
+                <div class="col-lg-4 col-sm-6">
+                    <a href="resources/portfolio/fullsize/1.jpg" class="portfolio-box">
+                        <img src="resources/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded hidden">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Almourol
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="resources/portfolio/fullsize/2.jpg" class="portfolio-box">
+                        <img src="resources/portfolio/thumbnails/2.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded hidden">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    <span class="english">Seaside</span>
+                                    <span class="portugues">Beira-mar</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="resources/portfolio/fullsize/3.jpg" class="portfolio-box">
+                        <img src="resources/portfolio/thumbnails/3.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded hidden">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Coimbra
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="resources/portfolio/fullsize/4.jpg" class="portfolio-box">
+                        <img src="resources/portfolio/thumbnails/4.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded hidden">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Mafra
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="resources/portfolio/fullsize/5.jpg" class="portfolio-box">
+                        <img src="resources/portfolio/thumbnails/5.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded hidden">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Bairrada
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="resources/portfolio/fullsize/6.jpg" class="portfolio-box">
+                        <img src="resources/portfolio/thumbnails/6.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded hidden">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Lousã
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -201,13 +304,27 @@
         </div>
     </section>
 
+       <!-- Footer -->
+    <footer class="text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    Made with <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> by <a href="http://www.inescoelho.info/">Inês Coelho</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
     <!-- jQuery -->
     <script src="libraries/jquery/jquery.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="libraries/bootstrap/js/bootstrap.min.js"></script>
 
+    <!-- Plugin JavaScript -->
     <script src="libraries/stylesheet/stylesheet.js"></script>
+    <script src="libraries/scrollreveal/scrollreveal.min.js"></script>
+    <script src="libraries/magnific-popup/jquery.magnific-popup.min.js"></script>
 
     <!-- Theme JavaScript -->
     <script src="js/index.js"></script>
