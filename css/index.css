@@ -158,7 +158,15 @@ header .header-content .header-text p {
   }
  }
 
+/*Tours*/
 
+#tours h3 {
+	font-weight: bold;
+}
+
+#tours p {
+	font-size: 20px;
+}
 
 .group-walk {
 	background: rgba(255, 255, 255, 0.6);
